@@ -97,4 +97,9 @@ Button(root, text=")", command = lambda :get_operators("(")).grid(row=3, column=
 Button(root, text="%", command = lambda :get_operators("%")).grid(row=4, column=5)
 Button(root, text="exp", command = lambda :get_operators("**")).grid(row=5, column=5)
 
+status = Label(root, text="Developer: Amritanshu", bd=1, relief=SUNKEN, anchor=E)
+status.grid(row=6, column=3, columnspan=3, sticky="we")
+
+
+
 root.mainloop()
